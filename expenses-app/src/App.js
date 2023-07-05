@@ -1,4 +1,5 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   const expenses = [
@@ -22,9 +23,19 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
+
+  const onSubmitHandler = (submitedData) => {
+    const expenseData = {
+      ...submitedData,
+      id: Math.random().toString(),
+    };
+    
+    console.log(expenseData);
+  };
+
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense onSubmit={onSubmitHandler}/>
       <Expenses data={expenses} />
     </div>
   );
