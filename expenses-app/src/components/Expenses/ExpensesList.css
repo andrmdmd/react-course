@@ -1,0 +1,11 @@
+.expenses-list {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  color: #c0c0c0;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
