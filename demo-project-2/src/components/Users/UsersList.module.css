@@ -1,0 +1,24 @@
+.users {
+  margin: auto;
+  background-color: rgb(226, 167, 78);
+  margin: auto;
+  padding: 1rem;
+  max-width: 40rem;
+  border-radius: 15px;
+  color: rgb(150, 96, 15);
+  font-weight: bold;
+}
+
+.users ul {
+  list-style: none;
+  padding: 0;
+}
+
+.users li {
+  list-style: none;
+  margin: 0.9rem 0;
+  padding: 0.5rem;
+  background-color: rgb(229, 158, 52);
+  border-radius: 10px;
+  font-weight: normal;
+}

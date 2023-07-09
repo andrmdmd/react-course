@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  --cinnabar: #e55934ff;
+  --jasper: #d9594cff;
+  --persian-orange: #ce8d66ff;
+  --citron: #c3bf6dff;
+  --sage: #b7b868ff;
+  margin: 0;
+  background-color: var(--cinnabar);
+  font-weight: bold;
+}
