@@ -14,7 +14,9 @@ body {
   --citron: #c3bf6dff;
   --sage: #b7b868ff;
   margin: 0;
-  background-color: var(--cinnabar);
+  background: var(--cinnabar);
+  background: rgb(255,90,28);
+  background: radial-gradient(circle, rgba(255,90,28,1) 0%, rgba(206,141,102,1) 100%);
   font-weight: bold;
 }
 
