@@ -1,10 +1,5 @@
 .input {
-  margin: 2rem auto;
-  padding: 1rem;
-  width: 90%;
-  max-width: 40rem;
   background-color: var(--sage);
-  border-radius: 15px;
   color: rgb(124, 125, 58);
 }
 
@@ -31,20 +26,4 @@
   background-color: var(--persian-orange);
 }
 
-.input button {
-  padding: 0.7rem;
 
-  border: none;
-  border-radius: 0.8rem;
-  font-size: 1rem;
-  font-weight: bold;
-
-  background-color: var(--persian-orange);
-  color: rgb(173, 86, 77);
-}
-
-.input button:hover {
-  cursor: pointer;
-  color: rgb(158, 47, 35);
-  background-color: var(--jasper);
-}

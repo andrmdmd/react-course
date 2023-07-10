@@ -1,10 +1,5 @@
 .users {
-  margin: auto;
   background-color: rgb(226, 167, 78);
-  margin: auto;
-  padding: 1rem;
-  max-width: 40rem;
-  border-radius: 15px;
   color: rgb(150, 96, 15);
   font-weight: bold;
 }
@@ -21,4 +16,20 @@
   background-color: rgb(229, 158, 52);
   border-radius: 10px;
   font-weight: normal;
+
+}
+
+.users button {
+  background-color:  rgb(218, 125, 19);
+  color: rgb(173, 86, 77);
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  margin: 0 0.5rem;
+  font-size: 10px;
+  float: right;
+}
+
+.users button:hover {
+  cursor: pointer;
+  color: rgb(158, 47, 35);
+  background-color: var(--jasper);
 }
