@@ -20,15 +20,19 @@
 .icon {
   width: 1.35rem;
   height: 1.35rem;
-  margin-right: 0.5rem;
+  margin-right: 1.2rem;
 }
 
 .badge {
   background-color: #b94517;
-  padding: 0.25rem 1rem;
+  padding: 0.1rem 0.3rem;
   border-radius: 25px;
   margin-left: 1rem;
   font-weight: bold;
+  position: fixed;
+  transform: translate(-42px, -10px);
+  font-size: 8px;
+  line-height: 8px;
 }
 
 .button:hover .badge,

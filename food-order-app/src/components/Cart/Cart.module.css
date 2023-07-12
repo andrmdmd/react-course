@@ -6,6 +6,10 @@
   overflow: auto;
 }
 
+.empty-cart-txt {
+  text-align: center;
+}
+
 .total {
   display: flex;
   justify-content: space-between;
@@ -44,3 +48,10 @@
   background-color: #8a2b06;
   color: white;
 }
+
+.button.inactive, .button.inactive:hover {
+  background-color: grey;
+  border: 1px solid rgb(80, 80, 80);
+  cursor: auto;
+}
+
